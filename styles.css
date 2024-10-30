@@ -1,0 +1,76 @@
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Botão Verder*/
+.btn-green {
+    background: green;
+    color: #fff;
+    box-shadow: 0 5px 0 #006000;
+}
+
+.btn-green:hover {
+    background: #006000;
+    color: #fff;
+    box-shadow: 0 5px 0 #003f00;
+}
+
+.btn-green:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+/*Botão Azul*/
+
+.btn-blue {
+    background: #0F35F5;
+    color: #fff;
+    box-shadow: 0 5px 0 #3F4FA0;
+}
+
+.btn-blue:hover {
+    background: #3F4FA0;
+    color: #fff;
+    box-shadow: 0 5px 0 #363A4B;
+}
+
+.btn-blue:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+/*Botão Vermelho*/
+.btn-red {
+    background: #F50F0F;
+    color: #fff;
+    box-shadow: 0 5px 0 #A03F3F;
+}
+
+.btn-red:hover {
+    background: #A03F3F;
+    color: #fff;
+    box-shadow: 0 5px 0 #4B3636;
+}
+
+.btn-red:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+/*
+Commit: Adicionado estilos para botões (verde, azul e vermelho)
+
+- Criado classes .btn-green, .btn-blue e .btn-red para estilização de botões
+- Adicionado efeitos hover com mudança de cor e sombra
+- Implementado efeito de clique (active) com deslocamento vertical
+- Padronizado cores e sombras para cada variante de botão
+- Mantido consistência visual entre os estados normal, hover e active
+*/
